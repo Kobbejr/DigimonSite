@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background: rgb(0,32,36);
+    background: linear-gradient(90deg, rgba(0,32,36,1) 0%, rgba(9,107,121,0.1293767507002801) 57%, rgba(0,212,255,1) 100%);
+}
+/* Navbar */
+
+.nav {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(15, 15, 15);
+    float: left;
+}
+
+.nav-header {
+    display: block;
+    text-align: center;
+}
+
+.nav-title {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    padding: 5px;
+    color: aqua;
+    font: bolder;
+}
+
+.nav-links {
+    display: block;
+    float: left;
+    font-size: 25px;
+    width: 30px;
+    float:left
+}
+
+.nav-links > a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(247, 249, 249);
+    float: left;
+}
+
+.nav-links > a:hover {
+    color: rgb(128, 143, 230);
+}
+
+/* HEADLINE */
+
+.headLine {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    min-width: 200px;
+    float: left;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+    font-size: xx-large;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10%;
+    margin: 10px;
+}
+
+.card {
+    width: 250px;
+    background-color: rgb(68, 29, 169);
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 5px 10px 10px black;
+}
+
+.cardtext {
+    color: black;
+}
+
+.image {
+    background-color: lightslategray;
+    height: 200px;
+    background-size: cover;
+}
+
+.card-1 {
+    background-image: url(https://static.posters.cz/image/1300/poster/marvel-comics-spider-man-ret-i11784.jpg);
+}
+
+.content {
+    margin: 10px;
+    text-align: center;
+    padding: 10px
+}
+
+.btn {
+background-color: white;
+border: 2px solid white;
+border-radius: 10px;
+color:rgb(15, 15, 15);
+margin-top: 10px;
+padding: 20px;
+font-weight: bold;
+text-align: center;
+font-size: 0.8rem;
+}
+
+.btn:hover {
+    background-color:blueviolet;
+    transition: .5s;
+    transform: scale(1.1);
+}
