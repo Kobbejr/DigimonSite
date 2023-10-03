@@ -54,24 +54,27 @@ body {
 }
 
 .starttext {
-  text-align: center;
   padding: 20px;
-  color: white;
-  margin-top: 20px;
+  color: rgb(250, 246, 246);
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 50px;
+  max-width: 358px;
 }
 
 .resultstext {
   text-align: center;
-  padding: 20px;
-  color: white;
-  margin-top: 20px;
+  color: rgb(233, 236, 217);
+  margin-top: 40px;
+  font-size: xx-large;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 h1 {
   text-align: center;
-  padding: 10px;
+  padding: 0px;
   font-size: xx-large;
-  margin: 50px;
+  margin-bottom: 40px;
 }
 
 .container {
@@ -94,12 +97,12 @@ h1 {
 }
 
 .image {
-  background-color: lightslategray;
+  background-color: rgb(0, 0, 0);
   height: 200px;
   background-size: cover;
 }
 
-/* BILDER */
+/* TURNERINGS-BILDER */
 
 .card-1 {
   background-image: url("images/magnamon.png");
@@ -141,6 +144,88 @@ h1 {
   background-image: url("images/championship2022.jpg");
 }
 
+.card-11 {
+  background-image: url("images/sukamon4.jpg");
+}
+
+/* SPELAR-BILDER */
+
+.playercard-1 {
+  background-image: url("images/profilbilder/Kenny.jpg");
+}
+
+.playercard-2 {
+  background-image: url("images/profilbilder/Robin.jpg");
+}
+
+.playercard-3 {
+  background-image: url("images/profilbilder/Alex.jpg");
+}
+
+.playercard-4 {
+  background-image: url("images/profilbilder/felix.jpg");
+}
+
+.playercard-5 {
+  background-image: url("images/profilbilder/Adam.jpg");
+}
+
+.playercard-6 {
+  background-image: url("images/profilbilder/Martin.jpg");
+}
+
+.playercard-7 {
+  background-image: url("images/profilbilder/Mathilda.jpg");
+}
+
+.playercard-8 {
+  background-image: url("images/profilbilder/Mattias.jpg");
+}
+
+.playercard-9 {
+  background-image: url("images/profilbilder/Emil.jpg");
+}
+
+.playercard-10 {
+  background-image: url("images/profilbilder/Trotte.jpg");
+}
+
+.playercard-11 {
+  background-image: url("images/profilbilder/DanielB.jpg");
+}
+
+.playercard-12 {
+  background-image: url("images/profilbilder/Johan.jpg");
+}
+
+.playercard-13 {
+  background-image: url("images/profilbilder/DanielN.jpg");
+}
+
+.playercard-14 {
+  background-image: url("images/profilbilder/Ferixen.jpg");
+}
+
+.playercard-15 {
+  background-image: url("images/profilbilder/Calle.jpg");
+}
+
+.playercard-16 {
+  background-image: url("images/profilbilder/Merlin.jpg");
+}
+
+.playercard-17 {
+  background-image: url("images/profilbilder/Michelle.jpg");
+}
+
+.playercard-18 {
+  background-image: url("images/profilbilder/Anton.jpg");
+}
+
+.playercard-19 {
+  background-image: url("images/profilbilder/Victor.jpg");
+}
+
 .startcard {
   text-align: center;
   padding: 10px;
@@ -163,4 +248,58 @@ h1 {
   background-color: rgb(45, 131, 184);
   transition: 0.5s;
   transform: scale(1.1);
+}
+
+img {
+  width: 62vw;
+}
+
+.resultatsida {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px;
+  gap: 20px;
+}
+
+.startsida {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+  gap: 20px;
+}
+
+.startimage {
+  width: 42vw;
+  margin-left: 80px;
+  margin-bottom: 50px;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(39, 138, 160);
+  color: white;
+}
+
+td {
+  text-align: center;
+}
+
+table {
+  background-color: rgb(3, 3, 3);
+  width: 62vw;
+  align-items: center;
+}
+
+.headLine {
+  margin-top: 60px;
+}
+
+.introbild {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
